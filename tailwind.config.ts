@@ -15,6 +15,12 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"), // Corrected the placement of require()
+  ],
+  daisyui: {
+    themes: ["winter"],
+  },
 };
+
 export default config;
